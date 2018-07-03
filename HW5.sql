@@ -44,7 +44,7 @@ SELECT prod_id, SUM(quantity) FROM stock GROUP BY prod_id;
 
 -- 10. Products names stocked in at least 3 depots.
 --(a) using count
-SELECT pname FROM product WHERE prod_id IN (SELECT prod_id FROM stock GROUP BY prod_id having COUNT(dep_id) >= 3);
+SELECT pname FROM product WHERE prod_id IN (SELECT prod_id FROM stock GROUP BY prod_id HAVING COUNT(dep_id) >= 3);
 --(b) without using count
 SELECT pname 
 FROM product 
