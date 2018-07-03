@@ -5,11 +5,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-
-
-/**
- * Group 3 – The product p1 changes its name to pp1 in Product and Stock.
- */
+/* Group 4 – The depot d1 changes its name to dd1 in Depot and Stock. */
 
 public class ProjectG4 {
 
