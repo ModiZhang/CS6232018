@@ -20,7 +20,7 @@ public class pro{
 		Connection conn = null;
 		try {
 			
-			 conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/mysql", "root", "1241356890123Qq"); 
+			 conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/mysql", "root", "Qq"); 
 		} catch (Exception e) {
 			System.out.println(e.toString());
 		}
